@@ -46787,7 +46787,7 @@ this.a.toString
 s=A.a3h("Flutter Demo Home Page",r)
 return new A.r4(new A.or(s,new A.Eg(r,r,1/0,56),r),A.Il(A.aaD(A.a([B.G6,A.a3h(""+this.d,A.bc(b).R8.e)],t.F),B.A2),r,r),A.a1Q(B.wx,!1,this.gLu(),"Increment"),r)}}
 A.VA.prototype={
-$0(){++this.a.d},
+$0(){this.a.d+=5},
 $S:0}
 A.aT.prototype={
 ap(a){var s=a.a,r=this.a
