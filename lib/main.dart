@@ -81,7 +81,7 @@ class _MyHomePageState extends State<MyHomePage> {
               Container(
                 width: 600,
                 height: 300,
-                child: Image.asset('pictures/hebe.jpg'),
+                child: Image.asset('assets/pictures/hebe.jpg'),
               ),
               const Text(
                 'You have pushed the button this many times:',
