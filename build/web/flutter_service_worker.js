@@ -4,26 +4,52 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "8a4b8900d70cc33c80b53d5d51ffd659",
-"index.html": "27b98b38f02a50031b06b3329592ebae",
-"/": "27b98b38f02a50031b06b3329592ebae",
-"main.dart.js": "f99ad8303bcaae78c3d7ba069335799f",
-"flutter.js": "0816e65a103ba8ba51b174eeeeb2cb67",
+"index.html": "ed9f3295d11dc5b4e0d7b3c2839db2d2",
+"/": "ed9f3295d11dc5b4e0d7b3c2839db2d2",
+"main.dart.js": "4878101b94bc0aa1bc8653b58760b786",
+"flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "manifest.json": "9010a469ddf5a23f85cbbf2fc28dceb2",
-"assets/AssetManifest.json": "ba4c6841d14fd86dc64b9df92eb7a543",
-"assets/NOTICES": "74a5bed8b0d964bf30fe1606ecdcdefe",
-"assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
+"assets/AssetManifest.json": "3f95a45b9bcb4ed818c75716f17c06be",
+"assets/NOTICES": "8d24482074d5b0f23106dcd174600988",
+"assets/FontManifest.json": "5a32d4310a6f5d9a6b651e75ba0d7372",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "dd3c4233029270506ecc994d67785a37",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "613e4cc1af0eb5148b8ce409ad35446d",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "d1722d5cf2c7855862f68edb85e31f88",
+"assets/shaders/ink_sparkle.frag": "909965f4f5a6c934edf2d51801e73a47",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
+"assets/assets/heberoom/room4.jpg": "984aa9f719801db69558a60541d01db7",
+"assets/assets/heberoom/room5.jpg": "1cd19bb1648222e857941129b2173a8f",
+"assets/assets/heberoom/room7.jpg": "f74cd2bc34f45c5deb7e6510cbce88c4",
+"assets/assets/heberoom/room6.jpg": "fea0889de48e15867206abb42e97e114",
+"assets/assets/heberoom/room2.jpg": "16e69dc2ba4297294a89dd5def0f00d6",
+"assets/assets/heberoom/room3.jpg": "a1655291533c02692580dd48689c5597",
+"assets/assets/heberoom/room1.jpg": "dfd35c03e3db6d4fdc1a40fd78bc32a7",
+"assets/assets/pictures/Hebe_symbol_(fixed_width).svg.png": "26cd80777267201cc84fa06449915503",
+"assets/assets/pictures/hebecoin.jpg": "5d230b8aabafaceb0ba4740c1155a1fa",
+"assets/assets/pictures/hebe.png": "17427f530d7fa99fc35c36f83aecf140",
 "assets/assets/pictures/hebe.jpg": "0c2cfc57fef78deb09484a3cf575b944",
-"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
-"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
-"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
-"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba"
+"assets/assets/pictures/person.png": "6ede1e25d66c72b4e0ca2e5459cfd8b1",
+"assets/assets/pictures/HebeHorizontal.jpg": "7e8cff1bf8a1c729c4831f85211bfa48",
+"assets/assets/pictures/hebesymbol.png": "21df80e822d4118734732da2bb10c345",
+"assets/assets/backgrounds/greekBackground4.jpeg": "019d0c4143336716e44c55a7e3658ee6",
+"assets/assets/backgrounds/greekBackground8.jpeg": "254abb6860f1b7d4cc1271d1a8c085a9",
+"assets/assets/backgrounds/greekBackground.jpg": "9a2431abe88a16cd7780f821083cdf94",
+"assets/assets/backgrounds/greekBackground5.jpeg": "e689acb88174c6fd8e6a67cec935f4e9",
+"assets/assets/backgrounds/greekBackground2.jpeg": "b5e375d8950c8be31344bc1290414a8a",
+"assets/assets/backgrounds/greekBackground3.jpeg": "24b8314202a06d66425e291803709651",
+"assets/assets/backgrounds/greekBackground1.jpeg": "5d6c84fa9eef70a4c7cfa31b29510306",
+"assets/assets/backgrounds/greekBackground6.jpeg": "bc5cf6b35ce36b394072f0ddc46d7e8a",
+"assets/assets/backgrounds/greekBackground7.jpeg": "a76f5a4c4d518fdd0abc2e06179350ed",
+"canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
+"canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
+"canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
+"canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -31,7 +57,6 @@ const RESOURCES = {
 const CORE = [
   "main.dart.js",
 "index.html",
-"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
@@ -130,9 +155,11 @@ self.addEventListener("fetch", (event) => {
     .then((cache) =>  {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
-        // lazily populate the cache.
+        // lazily populate the cache only if the resource was successfully fetched.
         return response || fetch(event.request).then((response) => {
-          cache.put(event.request, response.clone());
+          if (response && Boolean(response.ok)) {
+            cache.put(event.request, response.clone());
+          }
           return response;
         });
       })

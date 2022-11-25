@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:hebe/cubit/cubit/popup_cubit_cubit.dart';
+import 'package:hebe/cubit/menucontroller_cubit.dart';
 import 'package:hebe/responsive.dart';
 import 'package:hebe/screens/main_screen/large_main_screen.dart';
 import 'package:hebe/screens/main_screen/small_main_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  BlocOverrides.runZoned(() => runApp(const MyApp()));
 }
 
 class MyApp extends StatelessWidget {
@@ -13,13 +17,28 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'TPA Demo',
-        theme: ThemeData(
+      debugShowCheckedModeBanner: false,
+      title: 'TPA Demo',
+      theme: ThemeData(
           primarySwatch: Colors.cyan,
-        ),
-        home: const Responsive(
+          textTheme: GoogleFonts.gfsNeohellenicTextTheme()),
+      home: MultiBlocProvider(
+        providers: [
+          BlocProvider(
+            create: (context) => MenucontrollerCubit(),
+          ),
+          BlocProvider(
+            create: (context) => PopUpCubit(),
+          )
+        ],
+        // child: const Responsive(
+        //   largeScreen: LargeMainScreen(),
+        //   smallScreen: SmallMainScreen(),
+        child: const Responsive(
           largeScreen: LargeMainScreen(),
           smallScreen: SmallMainScreen(),
-        ));
+        ),
+      ),
+    );
   }
 }

@@ -18,27 +18,6 @@
       "moduleName": "hebe"
     },
     {
-      "kind": "Import",
-      "name": "Foundation",
-      "printedName": "Foundation",
-      "declKind": "Import",
-      "moduleName": "hebe"
-    },
-    {
-      "kind": "Import",
-      "name": "SwiftOnoneSupport",
-      "printedName": "SwiftOnoneSupport",
-      "declKind": "Import",
-      "moduleName": "hebe"
-    },
-    {
-      "kind": "Import",
-      "name": "_Concurrency",
-      "printedName": "_Concurrency",
-      "declKind": "Import",
-      "moduleName": "hebe"
-    },
-    {
       "kind": "TypeDecl",
       "name": "MainFlutterWindow",
       "printedName": "MainFlutterWindow",
@@ -203,27 +182,6 @@
       "moduleName": "hebe"
     },
     {
-      "kind": "Import",
-      "name": "Foundation",
-      "printedName": "Foundation",
-      "declKind": "Import",
-      "moduleName": "hebe"
-    },
-    {
-      "kind": "Import",
-      "name": "SwiftOnoneSupport",
-      "printedName": "SwiftOnoneSupport",
-      "declKind": "Import",
-      "moduleName": "hebe"
-    },
-    {
-      "kind": "Import",
-      "name": "_Concurrency",
-      "printedName": "_Concurrency",
-      "declKind": "Import",
-      "moduleName": "hebe"
-    },
-    {
       "kind": "TypeDecl",
       "name": "AppDelegate",
       "printedName": "AppDelegate",
@@ -356,17 +314,13 @@
     },
     {
       "kind": "Import",
-      "name": "Cocoa",
-      "printedName": "Cocoa",
-      "declKind": "Import",
-      "moduleName": "hebe"
-    },
-    {
-      "kind": "Import",
       "name": "FlutterMacOS",
       "printedName": "FlutterMacOS",
       "declKind": "Import",
-      "moduleName": "hebe"
+      "moduleName": "hebe",
+      "declAttributes": [
+        "RawDocComment"
+      ]
     },
     {
       "kind": "Import",
@@ -377,15 +331,8 @@
     },
     {
       "kind": "Import",
-      "name": "SwiftOnoneSupport",
-      "printedName": "SwiftOnoneSupport",
-      "declKind": "Import",
-      "moduleName": "hebe"
-    },
-    {
-      "kind": "Import",
-      "name": "_Concurrency",
-      "printedName": "_Concurrency",
+      "name": "path_provider_macos",
+      "printedName": "path_provider_macos",
       "declKind": "Import",
       "moduleName": "hebe"
     },

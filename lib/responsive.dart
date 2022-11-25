@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:hebe/cubit/cubit/popup_cubit_cubit.dart';
 
 const largePixel = 950;
 const smallPixel = 650;
+
+//some = 1100, 850 Desktop/tablet/mobile
 
 class Responsive extends StatelessWidget {
   const Responsive(
@@ -27,6 +31,7 @@ class Responsive extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var controller = context.read<PopUpCubit>();
     return LayoutBuilder(builder: ((context, constraints) {
       double width = constraints.maxWidth;
       if (width >= largePixel) {
